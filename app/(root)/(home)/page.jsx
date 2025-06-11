@@ -1,6 +1,8 @@
 import BiographySection from '@/components/biography'
 import Hero from '@/components/hero'
+import ResumeSection from '@/components/ResumeSection'
 import SkillsSection from '@/components/skilselection'
+import VideoHighlight from '@/components/videohighlight'
 import React from 'react'
 
 function page() {
@@ -9,6 +11,8 @@ function page() {
         <Hero />
         <SkillsSection />
         <BiographySection />
+        <VideoHighlight />
+        <ResumeSection />
     </div>
   )
 }
